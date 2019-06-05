@@ -12,6 +12,7 @@ print(data.describe())
 
 cor = data1.corr() #Calculate the correlation of the above variables
 sns.heatmap(cor, square = True) #Plot the correlation as heat map
+ax = sns.heatmap(data)
 plt.show()
-# ax = sns.heatmap(data)
+
 # plt.show()
